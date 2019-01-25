@@ -14,7 +14,6 @@ const ListItem = NativeUI.ListItem;
 // Tuning
 
 mp.keys.bind(0x77, true, () => {
-    mp.gui.chat.push('Test');
     const ui = new Menu("Tuning", "Tuning Teile", new Point(1480, 250));
     ui.AddItem(new UIMenuListItem(
         "Spoiler",
